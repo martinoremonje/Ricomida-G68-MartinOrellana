@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+section{
+    font-family: "Cabin";
+}
+nav .logo-div{
+    font-family: "Lobster";
+    padding-left: 17.6%;
+}  
+
+nav ul{
+    padding-right: 15%;
+}
+
+.bg-div{
+    height: 340px; 
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.container-fluid .carousel-inner .d-flex img {
+    object-fit: cover;
+    height: 150px;
+    width: 200px;
+    margin: 5px;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+  
+  .carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: black !important;
+    margin: 0 5px !important;
+}
+
+
+
+.carousel-indicators .active {
+    background-color: #555 !important; 
+}
+
+h4{
+    color: rgb(0,0,0);
+}
+
+article{
+    font-family: "Cabin";
+}
+
+section span{
+    font-family: "Lobster";
+}
+
+footer h2{
+    font-family: "Lobster";
+
+}
+
+.card-body p {
+    margin-top: 10%;
+    font-family: "Cabin";
+    font-size: 14px;
+} 
+
+.section-4 h4{
+    margin-bottom: 55px;
+}
+
+
+@media (min-width: 1000px) {
+    .section-1{
+        padding: 25px 25px 25px 255px;
+    }
+    .section-2{
+        padding: 0px 145px 25px 145px; 
+        margin-top: -25px;
+    }
+    .section-3{
+        padding: 25px 25px 25px 255px;
+    }
+    .section-4 button{
+        margin-top: 3%;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .bg-div{
+        height: 205px;
+        width: 225px;
+    }
+
+    .section-1 h2, .bg-div {
+        margin-left: 45px;
+    }
+
+    .section-1 button{
+        width: 100px !important;
+        height: 40px;
+        font-size: 10px;
+    }
+
+.section-2 .article-2{
+    margin-top: 25px;
+}
+
+    .section-2 hr{
+        display: none;
+    }
+
+    .card{
+        margin: 0px 30px 15px 30px;
+    }
+
+    .section-4{
+        text-align: center;
+        padding: 55px 35px;
+    }
+    .section-4 button{
+        margin-top: 25px;
+    }
+  }
